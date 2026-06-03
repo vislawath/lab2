@@ -22,4 +22,4 @@ jobs:
       - name: Printing run-job boolean value
         run: |
          if(${{inputs.run_job}})
-         echo "${{inputs.run_job}}"
+          echo "${{inputs.run_job}}"
